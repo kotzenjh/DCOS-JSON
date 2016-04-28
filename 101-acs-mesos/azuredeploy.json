@@ -1098,7 +1098,7 @@
       },
       "type": "Microsoft.Compute/virtualMachineScaleSets"
     }
-  ]
+  ],
   "variables": {
     "DcosImageCommit": "19d355209269e8836c6b080e5e766f9ddb89aa8c",
     "TemplateGenerationDate": "2016-04-19 04:39:22.104365",
@@ -1117,7 +1117,7 @@
     "agentPrivateSubnetName": "[concat(variables('orchestratorName'), '-agentPrivateSubnet')]",
     "agentPrivateVMNamePrefix": "[concat(variables('orchestratorName'), '-agent-private-', variables('nameSuffix'))]",
     "agentPrivateVMSSCount": 1,
-    "agentPublicAddressPrefix": "10.15.18.0/24",
+    "agentPublicAddressPrefix": "10.15.17.0/24",
     "agentPublicCount": "[variables('agentPublicCountPerMasterCount')[string(variables('masterCount'))]]",
     "agentPublicCountPerMasterCount": {
       "1": 1,
